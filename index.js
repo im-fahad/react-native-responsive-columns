@@ -16,7 +16,6 @@ const styles = StyleSheet.create(
     {
         row: {
             flexDirection:'row', 
-            backgroundColor:'#fff',
             flexWrap:'wrap',
             marginRight: -5,
         },
@@ -68,12 +67,6 @@ const styles = StyleSheet.create(
             width: (colWidth*12)+'%',
             paddingRight: 5,
         },
-        colBody: {
-            width: '100%',
-            height: 100,
-            marginBottom: 5,
-            backgroundColor: 'red',
-        }
     }
     :width > 421 && width < 768
     ?
@@ -132,12 +125,6 @@ const styles = StyleSheet.create(
             width: (colWidth*12)+'%',
             paddingRight: 6,
         },
-        colBody: {
-            width: '100%',
-            height: 100,
-            marginBottom: 6,
-            backgroundColor: 'red',
-        }
     }
 
     :width > 769 && width < 1024 
@@ -199,12 +186,6 @@ const styles = StyleSheet.create(
             width: (colWidth*12)+'%',
             paddingRight: 7,
         },
-        colBody: {
-            width: '100%',
-            height: 100,
-            marginBottom: 7,
-            backgroundColor: 'red',
-        }
     }
 
     :
@@ -264,12 +245,6 @@ const styles = StyleSheet.create(
             width: (colWidth*12)+'%',
             paddingRight: 8,
         },
-        colBody: {
-            width: '100%',
-            height: 100,
-            marginBottom: 8,
-            backgroundColor: 'red',
-        }
     }
 
 )
